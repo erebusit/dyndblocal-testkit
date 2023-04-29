@@ -1,5 +1,4 @@
 name := "dyndb-testkit"
-version := "0.1.0-SNAPSHOT"
 versionScheme := Some("semver-spec")
 
 scalaVersion := "2.13.10"
