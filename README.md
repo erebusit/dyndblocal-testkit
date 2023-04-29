@@ -1,7 +1,7 @@
 ## Installation
 
 ```sbt
-libraryDependencies += "io.quickci.dyndb" %% "dynamodblocal-testkit" % "0.2.1" % Test
+libraryDependencies += "se.erebusit" %% "dyndblocal-testkit" % "<version>" % Test
 
 ```
 
@@ -103,4 +103,3 @@ Configuration values will be determined in the following priority:
 
 * Support for global indexes
 * Support for secondary local indexes
-* Better  
