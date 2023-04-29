@@ -10,10 +10,11 @@ releaseProcess := Seq[ReleaseStep](
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
-  // For non cross-build projects, use releaseStepCommand("publishSigned")
-  releaseStepCommandAndRemaining("+publishSigned"),
+//   For non cross-build projects, use releaseStepCommand("publishSigned")
+//  releaseStepCommand("publishSigned"),
+//  releaseStepCommandAndRemaining("+publishSigned"),
 //  releaseStepCommand("sonatypeBundleRelease"),
   setNextVersion,
-  commitNextVersion,
+  commitNextVersion
 //  pushChanges
 )
