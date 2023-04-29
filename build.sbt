@@ -1,6 +1,5 @@
-name := "dynamodblocal-testkit"
-
-version := "0.1.0"
+name := "dyndb-testkit"
+version := "0.1.0-SNAPSHOT"
 versionScheme := Some("semver-spec")
 
 scalaVersion := "2.13.10"
@@ -16,3 +15,6 @@ libraryDependencies ++= Seq(
   "software.amazon.awssdk" % "dynamodb"      % "2.20.26" % Provided,
   "org.scalatest"         %% "scalatest"     % "3.2.15"  % Provided
 )
+
+ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
+publishTo := sonatypePublishToBundle.value
