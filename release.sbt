@@ -13,7 +13,7 @@ releaseProcess := Seq[ReleaseStep](
 //   For non cross-build projects, use releaseStepCommand("publishSigned")
   releaseStepCommand("publishSigned"),
 //  releaseStepCommandAndRemaining("+publishSigned"),
-//  releaseStepCommand("sonatypeBundleRelease"),
+  releaseStepCommand("sonatypeBundleRelease"),
   setNextVersion,
   commitNextVersion
 //  pushChanges
